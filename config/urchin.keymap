@@ -39,6 +39,13 @@
             #binding-cells = <0>;
             bindings = <&kp Q>, <&kp ESCAPE>;
         };
+
+        shift_enter_behaviour: shift_enter_behaviour {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHIFT_ENTER_BEHAVIOUR";
+            #binding-cells = <0>;
+            bindings = <&kp ENTER>, <&kp LEFT_SHIFT>;
+        };
     };
 
     macros {
