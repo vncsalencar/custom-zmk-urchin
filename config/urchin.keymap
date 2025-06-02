@@ -73,11 +73,6 @@
             bindings = <&mo 4>;
             key-positions = <30 31>;
         };
-
-        substitute_s_combo {
-            bindings = <&kp S>;
-            key-positions = <11 12>;
-        };
     };
 
     keymap {
@@ -105,10 +100,10 @@
 
         ext {
             bindings = <
-&kp ESCAPE    &trans        &trans          &trans            &kp LG(GRAVE)     &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
-&sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk RIGHT_ALT     &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(BACKSPACE)
-&kp LC(Z)     &kp LC(X)     &kp LC(C)       &kp LC(V)         &trans            &kp DELETE     &kp CAPSLOCK    &trans          &trans           &kp TAB
-                                            &trans            &kp LEFT_CONTROL  &kp ENTER      &mo 6
+&kp ESCAPE    &kp S             &trans          &trans        &kp LG(GRAVE)     &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp BACKSPACE
+&sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &sk LEFT_WIN  &sk RIGHT_ALT     &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(BACKSPACE)
+&kp LC(Z)     &kp LC(X)         &kp LC(C)       &kp LC(V)     &trans            &kp DELETE     &kp CAPSLOCK    &trans          &trans           &kp TAB
+                                                &trans        &kp LEFT_CONTROL  &kp ENTER      &mo 6
             >;
         };
 
