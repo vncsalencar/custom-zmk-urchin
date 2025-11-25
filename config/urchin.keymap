@@ -123,9 +123,9 @@
 
         sym2 {
             bindings = <
-&kp CARET  &kp UNDERSCORE  &kp COLON      &kp SEMI  &kp HASH       &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp TILDE       &kp BACKSLASH  &kp PIPE  &kp AMPERSAND  &trans  &trans  &trans  &trans  &trans
-&trans     &trans          &trans         &trans    &trans         &trans  &trans  &trans  &trans  &trans
+&kp CARET  &kp UNDERSCORE  &kp COLON      &kp SEMI  &kp HASH       &trans  &trans                    &trans  &trans                     &trans
+&kp GRAVE  &kp TILDE       &kp BACKSLASH  &kp PIPE  &kp AMPERSAND  &trans  &hyprland_workspace_left  &trans  &hyprland_workspace_right  &trans
+&trans     &trans          &trans         &trans    &trans         &trans  &trans                    &trans  &trans                     &trans
                                           &trans    &trans         &trans  &trans
             >;
         };
