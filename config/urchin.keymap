@@ -58,6 +58,20 @@
     macros {
         // sometimes my device thinks a modifier is being held down
         // pressing all modifiers fixes it.
+
+        hyprland_workspace_left: hyprland_workspace_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LA(H))>;
+            label = "HYPRLAND_WORKSPACE_LEFT";
+        };
+
+        hyprland_workspace_right: hyprland_workspace_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LA(L))>;
+            label = "HYPRLAND_WORKSPACE_RIGHT";
+        };
     };
 
     combos {
