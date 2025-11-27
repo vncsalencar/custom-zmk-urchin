@@ -151,7 +151,7 @@
         fnc {
             bindings = <
 &kp F1        &kp F2        &kp F3          &kp F4            &kp F5         &kp F6   &kp F7   &kp F8           &kp F9  &kp F10
-&sk LEFT_ALT  &sk LEFT_WIN  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk RIGHT_ALT  &kp F11  &kp F12  &kp PRINTSCREEN  &trans  &trans
+&kp LEFT_ALT  &kp LEFT_WIN  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp RIGHT_ALT  &kp F11  &kp F12  &kp PRINTSCREEN  &trans  &trans
 &trans        &trans        &trans          &trans            &trans         &trans   &trans   &trans           &trans  &trans
                                             &trans            &trans         &trans   &trans
             >;
